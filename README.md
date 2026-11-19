@@ -1,4 +1,4 @@
-# musicsforyou-com
+# 桃源
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,149 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-musicsforyou-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://musicsforyou.com/
+桃源 (Music for You) is an AI-powered music generation platform that creates personalized songs from a single sentence description. Users can input who the song is for, the occasion, and desired style, and the service generates lyrics, melody, and arrangement using large language and generative audio models. The platform offers free previews of titles and lyrics, with paid options for full audio files, multi‑version selections, and commercial licenses for creators, brands, and podcasters. Founded by serial entrepreneur Jerry Yang, the team blends AI research from Stanford with engineering to deliver a simple, expressive music creation experience.
+
+**Areas:** Company
+
+## 桃源 on APIs.io
+
+Everything profiled for 桃源 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/musicsforyou-com/](https://apis.io/providers/musicsforyou-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [桃源 Account API](https://apis.io/apis/musicsforyou-com/musicsforyou-com-account-api/) — 额度与用量 / Credits and usage
+- [桃源 Billing API](https://apis.io/apis/musicsforyou-com/musicsforyou-com-billing-api/) — 额度购买 / Buying credits
+- [桃源 Catalog API](https://apis.io/apis/musicsforyou-com/musicsforyou-com-catalog-api/) — 目录 / Presets and capabilities
+- [桃源 Compose API](https://apis.io/apis/musicsforyou-com/musicsforyou-com-compose-api/) — 编译与修改（免费）/ Compile and revise (free)
+- [桃源 Edit API](https://apis.io/apis/musicsforyou-com/musicsforyou-com-edit-api/) — 局部替换与分轨 / Replace a section, stems
+- [桃源 Generate API](https://apis.io/apis/musicsforyou-com/musicsforyou-com-generate-api/) — 生成与查询 / Generate and poll
+- [桃源 Keys API](https://apis.io/apis/musicsforyou-com/musicsforyou-com-keys-api/) — API Key 管理（仅网站登录）/ Key management (website session only)
+- [桃源 Library API](https://apis.io/apis/musicsforyou-com/musicsforyou-com-library-api/) — 作品 / Tracks
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Musicsforyou Com Webhooks](https://apis.io/asyncapis/musicsforyou-com/musicsforyou-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [桃源 Agentic Access](https://apis.io/agentic-access/musicsforyou-com/musicsforyou-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CompileRequest](https://apis.io/schemas/musicsforyou-com/musicsforyou-com-compile-request/)
+- [CreditsResponse](https://apis.io/schemas/musicsforyou-com/musicsforyou-com-credits-response/)
+- [GenerateRequest](https://apis.io/schemas/musicsforyou-com/musicsforyou-com-generate-request/)
+- [GenerationSpec](https://apis.io/schemas/musicsforyou-com/musicsforyou-com-generation-spec/)
+- [ReplaceSectionRequest](https://apis.io/schemas/musicsforyou-com/musicsforyou-com-replace-section-request/)
+- [SongRequest](https://apis.io/schemas/musicsforyou-com/musicsforyou-com-song-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Musicsforyou Com Context](https://apis.io/jsonld/musicsforyou-com/musicsforyou-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [桃源 API Rules](https://apis.io/rules/musicsforyou-com/musicsforyou-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [桃源 Authentication](https://apis.io/security/musicsforyou-com/musicsforyou-com-authentication/)
+- [桃源 Domain Security](https://apis.io/security/musicsforyou-com/musicsforyou-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [桃源 Scopes](https://apis.io/scopes/musicsforyou-com/musicsforyou-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [桃源 Plans Pricing](https://apis.io/plans/musicsforyou-com/musicsforyou-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.musicsforyou.com/)
+- [Documentation](https://www.musicsforyou.com/developers)
+- [Getting started](https://www.musicsforyou.com/pricing)
+- [API reference](https://api.musicsforyou.com/openapi.json)
+- [Pricing](https://www.musicsforyou.com/pricing)
+- [Support](https://www.musicsforyou.com/contact)
+- [Blog](https://www.musicsforyou.com/blog)
+- [Terms of service](https://www.musicsforyou.com/terms)
+- [Privacy policy](https://www.musicsforyou.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.8** — strong · rubric 0.27.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 67.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 50.5 |
+
+**Agent readiness 62.7** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/musicsforyou-com/](https://apis.io/providers/musicsforyou-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 桃源: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/musicsforyou-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
